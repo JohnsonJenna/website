@@ -1,0 +1,27 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://rare-gallery.com/uploads/posts/4582211-vipers-reptiles-snake-red-lizard-scales-animals-dragon-snake.jpg');
+    background-position: center;
+    background-repeat: none;
+    background size: cover;
+    filter: blur(30px);
+    position: absolute;
+    z-index: -1;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #ffffff;
+}
