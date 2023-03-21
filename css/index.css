@@ -7,9 +7,10 @@ body {
     justify-content: center;
     margin: 0;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .title {
     font-size: 30px;
-    height: 100vh;
+    height: 80vh;
 }
