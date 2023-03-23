@@ -16,5 +16,5 @@ function setColor(element) {
 }
 
 function removeColor(element) {
-    element.style.background = '#1f1f1f'
+    element.style.background = '#f6f6f6'
 }
