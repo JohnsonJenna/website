@@ -1,5 +1,5 @@
 body {
-    background-color: #e3e5e5;
+    background-color: #eceeee;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     height: 16px;
     width: 16px;
     margin: 2px;
-    background-color: #eceeee;
+    background-color: white;
     transition: 2s ease;
 }
 
