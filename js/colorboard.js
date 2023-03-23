@@ -1,5 +1,5 @@
 const container = document.getElementById('container')
-const colors = ['a7bed3', '#c6e2e9', '#f1ffc4', '#ffcaaf', '#dab894']
+const colors = ['#e8dff5', '#fce1e4', '#fcf4dd', '#ddedea', '#doeo16']
 const SQUARES = 500
 
 for (let i = 0; i < SQUARES; i++) {
