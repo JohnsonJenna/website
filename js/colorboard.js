@@ -9,4 +9,7 @@ for (let i = 0; i < SQUARES; i++) {
     square.addEventListener('mouseover', () => setColo(square))
 }
 
-function
+function setColor(element) {
+    const color = colors[0]
+    element.style.background = "yellow"
+}
