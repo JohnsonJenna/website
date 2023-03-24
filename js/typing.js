@@ -7,5 +7,5 @@ let speed = 300
 writeText()
 
 function writeText(){
-    textEl.innerText = text
+    textEl.innerText = text.slice(0,1)
 }
