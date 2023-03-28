@@ -12,9 +12,14 @@ body {
 
 .title {
     font-size: 30px;
-    position: center;
+    ;
 }
 
 .websites {
+    display
+}
 
+.bg {
+    position: center;
+    size: cover;
 }
