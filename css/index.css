@@ -20,6 +20,7 @@ body {
 }
 
 .bg {
+    background-image: url('https://img.rawpixel.com/private/static/images/website/2022-05/upwk62049834-wikimedia-image-job572-1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=26a17e7b89a0875106817f0e366a22db');
     background-position: center;
     background-size: cover;
     background repeat: none;
