@@ -1,16 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato&family=Rubik+Iso&display=swap');
+
+
 
 
 body {
     display: flex;
-    height: 100vh;
     align-items: center;
     justify-content: center;
     margin: 0;
-    overflow: hidden;
+}
+
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/px1641331-image-kwypfqg1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=74eaea1a3042bcdb9bf4c8b194fecc8a');
+    background-position: center;
+    background-repeat;
+    background-size: cover;
+}
+
+
+.link a {
+    font-family: 'Gloock', serif;
+    text-decoration: none;
+    color: grey;
     justify-content: space-between;
 }
 
-.title {
-    font-size: 30px;
-    height: 80vh;
+
+.bg .content {
+    font-family: 'Gloock', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    position: fixed;
+    top: 0;
+    color: grey;
+}
+
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    font-size: 20px;
 }
