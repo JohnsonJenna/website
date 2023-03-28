@@ -20,6 +20,8 @@ body {
 }
 
 .bg {
-    position: center;
-    size: cover;
+    background-position: center;
+    background-size: cover;
+    background repeat: none;
+    position: absolute;
 }
