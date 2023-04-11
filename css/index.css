@@ -10,11 +10,13 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 50px;
+    color: #eea5a5;
 }
 
 .websites {
-    position:
+    position: absolute
+    color: #EEA5A5;
 }
 
 .bg {
@@ -23,4 +25,7 @@ body {
     background-size: cover;
     background repeat: none;
     position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
