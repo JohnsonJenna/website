@@ -4,8 +4,8 @@ const text = "We Love Programming!!!"
 let idx = 1
 let speed = 300 / speedEl.value
 
-speedEl.addEventListener('input', (e) => {
-    speed = 300 / e.target.value
+speedEl.addEventListener('input', (element) => {
+    speed = 300 / element.target.value
 })
 
 writeText()
