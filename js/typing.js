@@ -10,7 +10,7 @@ speedEl.addEventListener('input', (element) => {
 
 writeText()
 
-function writeText(){
+function writeText() {
     textEl.innerText = text.slice(0,idx)
     idx++
     if (idx > text.length) {
