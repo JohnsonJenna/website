@@ -10,7 +10,7 @@ let int = setInterval(loading, 30)
 function loading(){
     load++
     loadText.innerText = `${load}%`
-    bg.style.filter = `blur(${30 - 0.3*load}px)`
+    bg.style.filter = `blur(${30 - .3*load}px)`
     loadText.style.opacity = `${1 - load/100}`
 
     if (load == 100){
